@@ -10,7 +10,7 @@ This project predicts **house prices** using machine learning techniques.
 It is based on the [Kaggle House Prices Dataset](https://www.kaggle.com/c/house-prices-advanced-regression-techniques) and demonstrates the **end-to-end ML pipeline**: data preprocessing, feature engineering, model training, evaluation, and saving models.
 
 ---
-## 📑 Table of Contents
+##  Table of Contents
 - [Overview](#-project-overview)
 - [Structure](#-project-structure)
 - [Tech Stack](#-tech-stack)
@@ -22,7 +22,7 @@ It is based on the [Kaggle House Prices Dataset](https://www.kaggle.com/c/house-
 - [Author](#-author)
 
 
-## 🚀 Project Overview
+##  Project Overview
 The main goal of this project is to build a regression model that can predict the sale price of a house based on various features such as:
 - Lot size
 - Neighborhood
@@ -35,7 +35,7 @@ This project is part of my AI/ML internship at **INLIGHN TECH**.
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 house-price-prediction-ml/
 │── data/ # Dataset files (if small, else link to Kaggle)
 │── notebook.ipynb # Google Colab notebook (main code)
@@ -46,7 +46,7 @@ house-price-prediction-ml/
 
 ---
 
-## ⚙️ Tech Stack
+## ⚙ Tech Stack
 - **Python 3.8+**
 - **NumPy, Pandas** → Data manipulation
 - **Matplotlib, Seaborn** → Exploratory Data Analysis (EDA)
@@ -56,7 +56,7 @@ house-price-prediction-ml/
 
 ---
 
-## 🔬 Models Used
+##  Models Used
 - **Linear Regression** → Baseline model
 - **Ridge & Lasso Regression** → Regularized linear models
 - **Decision Tree Regressor** → Nonlinear, interpretable model
@@ -70,7 +70,7 @@ preds = model.predict(X_test)
 
 ---
 
-## 📊 Workflow
+##  Workflow
 1. **Data Preprocessing**
    - Handle missing values (median for numeric, mode for categorical)
    - One-hot encode categorical features
@@ -97,7 +97,7 @@ preds = model.predict(X_test)
 
 ---
 
-## 📈 Results
+##  Results
 - **Best Model:** Random Forest Regressor
 - **Performance:**  
   - RMSE ≈ (add your result here)  
@@ -110,7 +110,7 @@ preds = model.predict(X_test)
 
 ---
 
-## 🛠️ How to Run Locally
+## 🛠 How to Run Locally
 1. Clone this repository:
    ```bash
 
