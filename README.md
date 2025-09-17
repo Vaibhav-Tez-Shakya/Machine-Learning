@@ -34,31 +34,24 @@ and more.
 This project is part of my AI/ML internship at **INLIGHN TECH**.
 
 ---
-
-##  Project Structure
 ## Project Structure
-
-```bash
 house-price-prediction-ml/
-│
-├── data/                # Raw & processed datasets
-│   ├── train.csv
-│   ├── test.csv
-│   └── processed.csv
-│
-├── notebooks/           # Jupyter/Colab notebooks for EDA & modeling
-│   ├── 01_eda.ipynb
-│   └── 02_modeling.ipynb
-│
-├── models/              # Saved ML models
-│   └── house_price_model.pkl
-│
-├── requirements.txt     # Python dependencies
-└── README.md            # Project documentation
+├─ data/
+│  ├─ raw/              # (NOT pushed) original dataset (link in README)
+│  └─ processed/        # cleaned data (small, optional)
+├─ notebooks/
+│  └─ notebook.ipynb    # EDA + experiments (Colab-friendly)
+├─ src/
+│  ├─ data_prep.py      # functions to load & clean data
+│  ├─ features.py       # feature engineering
+│  ├─ train.py          # training pipeline script
+│  └─ predict.py        # helper for making predictions
+├─ models/
+│  └─ house_price_pipeline.pkl
+├─ requirements.txt
+├─ README.md
+└─ .gitignore
 
-
-
----
 
 ## ⚙ Tech Stack
 - **Python 3.8+**
