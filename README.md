@@ -123,5 +123,5 @@ preds = model.predict(X_test)
 
 ## 👨‍💻 Author
 **Vaibhav Shakya**  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue)](https://www.linkedin.com/in/your-link/)  
-[![GitHub](https://img.shields.io/badge/GitHub-black)](https://github.com/yourusername)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue)]((https://www.linkedin.com/in/vaibhav-shakya-42096b266/))  
+[![GitHub](https://img.shields.io/badge/GitHub-black)]((https://github.com/Vaibhav-Tez-Shakya))
