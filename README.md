@@ -36,12 +36,26 @@ This project is part of my AI/ML internship at **INLIGHN TECH**.
 ---
 
 ##  Project Structure
+## Project Structure
+
+```bash
 house-price-prediction-ml/
-│── data/ # Dataset files (if small, else link to Kaggle)
-│── notebook.ipynb # Google Colab notebook (main code)
-│── house_price_model.pkl # Saved trained model (via joblib)
-│── README.md # Project documentation
-│── requirements.txt # Python dependencies
+│
+├── data/                # Raw & processed datasets
+│   ├── train.csv
+│   ├── test.csv
+│   └── processed.csv
+│
+├── notebooks/           # Jupyter/Colab notebooks for EDA & modeling
+│   ├── 01_eda.ipynb
+│   └── 02_modeling.ipynb
+│
+├── models/              # Saved ML models
+│   └── house_price_model.pkl
+│
+├── requirements.txt     # Python dependencies
+└── README.md            # Project documentation
+
 
 
 ---
